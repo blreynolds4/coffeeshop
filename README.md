@@ -10,10 +10,13 @@ Implementation Notes:
 
 ## Building
 
+```
 go build -o coffee-sim
+```
 
 ## Running
 
+```
 ./coffee-sim  --help
 Usage of ./coffee-sim:
   -barista-count int
@@ -31,3 +34,4 @@ Usage of ./coffee-sim:
 
 Example:
   coffee-sim -barista-count 2 -barista-order-count 10 -brewer-count 3 -grinder-count 3 -kiosk-count 2 -customer-count 20
+```
